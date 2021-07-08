@@ -1,0 +1,72 @@
+@import '~src/variables.scss';
+
+.se-banner {
+    background: #ffff;
+
+    .title {
+        color: $laranja;
+    }
+
+    .subtitle {
+        color: $cinza-forte
+    }
+}
+
+.se-diversos-beneficios {
+    background: $azul;
+
+    .row {
+        justify-content: center;
+        display        : flex;
+    }
+
+    img {
+        margin-top     : -202px;
+    }
+
+    .title {
+        color: $roxo
+    }
+
+    .icon-check {
+        background: $roxo !important;
+        width     : 20px;
+        height    : 20px;
+        font-size : 17px;
+    }
+
+    li {
+        font-size: 16px;
+    }
+}
+
+.se-cadastre {
+    background: $cinza;
+
+    .header {
+        background: $laranja;
+        text-align: center;
+        padding   : 2em;
+
+        .title {
+            font-size: 20px;
+        }
+    }
+
+    .container {
+        .title {
+            color: $laranja
+        }
+
+        .text-area {
+            color     : #000;
+            margin-top: 3em;
+            padding   : 1em;
+            text-align: left;
+        }
+
+        .botao-roxo {
+            font-size: 20px;
+        }
+    }
+}

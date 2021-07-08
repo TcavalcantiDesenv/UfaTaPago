@@ -1,0 +1,20 @@
+@import '~src/variables.scss';
+
+
+
+.body-content {
+    background: $laranja;
+    width     : 100%;
+    color     : #ffff;
+
+
+
+    .image {
+        img {
+            width: 100%;
+        }
+    }
+    a{
+        color: #ffff;
+    }
+}

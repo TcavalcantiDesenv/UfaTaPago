@@ -1,0 +1,124 @@
+<div class="border">
+<section class="se-banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 col-sm-6">
+                <div class="title">Agora você pode</div>
+                <div class="title">solicitar um empréstimo</div>
+                <div class="title">direto do seu </div>
+                <div class="title">cartão de crédito</div>
+                <div class="subtitle">Tenha o crédito ideal para você,sem burocracia</div>
+                <div class="subtitle">e com facilidade que você precisa , mesmo</div>
+                <div class="subtitle">estando negativado</div>
+            </div>
+            <div class="col-12 col-lg-6 col-sm-6 " >
+                <img src="assets/img/cartoes.png" style="width: 45vh;">
+                <div style="font-size: 1vh;">
+                    <span class="text-danger">
+                        É NECESSÁRIO POSSUIR CARTÃO DE CRÉDITO COM LIMITE DE COMPRAS DISPONÍVEL.
+                    </span>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+   
+</section>
+<section class="se-diversos-beneficios">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 col-sm-12 noMobile" style="text-align: inherit;">
+                <img src="assets/img/mulher-celular.png" alt="">
+            </div>
+            <div class="col-12 col-lg-6 col-sm-12">
+                <div class="title">
+                    Diversos benefícios para você
+                </div>
+                <div class="text-left px-2">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="icon-check"><i class="bi bi-check"></i></div>
+                            Taxa de juros reduzida em relação ao Empréstimo Pessoal;
+                        </li>
+                        <li class="list-group-item">
+                            <div class="icon-check"><i class="bi bi-check"></i></div>
+                            Convênios com os principais Bancos do Mercado;
+                        </li>
+                        <li class="list-group-item">
+                            <div class="icon-check"><i class="bi bi-check"></i></div>
+                            Depósito do dinheiro em conta corrente do titular
+                        </li>
+                        <li class="list-group-item">
+                            <div class="icon-check"><i class="bi bi-check"></i></div>
+                            Atendimento personalizado
+                        </li>
+                        <li class="list-group-item">
+                            <div class="icon-check"><i class="bi bi-check"></i></div>
+                            Aprovação automática se tiver limite no Cartão de Crédito
+                        </li>
+                        <li class="list-group-item">
+                            <div class="icon-check"><i class="bi bi-check"></i></div>
+                            Sem consulta SPC e SERASA;
+                        </li>
+                        <li class="list-group-item">
+                            <div class="icon-check"><i class="bi bi-check"></i></div>
+                            Liberação rápida e sem burocracia
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="se-cadastre">
+    <div class="header">
+        <div class="title">
+            Preencha o cadastro abaixo solicitando seu Empréstimo Pessoal,
+        </div>
+        <div class="title">ou entre em contato através do WhatsApp 12 0000-000</div>
+    </div>
+    <div class="container">
+        <div class="title text-center">CADASTRE-SE</div>
+        <form [formGroup]="form_cadastro" class="mt-5 px-2">
+            <div class="row">
+                <div class="col-12 col-lg-6 col-sm-6">
+                    <div class="form-group">
+                        <label for="my-input">NOME</label>
+                        <input formControlName="nome" id="my-input" class="form-control" type="text" name="">
+                    </div>
+                    
+                </div>
+                <div class="col-12 col-lg-6 col-sm-6">
+                    <div class="form-group">
+                        <label for="my-input">E-MAIL</label>
+                        <input formControlName="email" id="my-input" class="form-control" type="email" name="">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-sm-6">
+                    <div class="form-group">
+                        <label for="my-input">TELEFONE 1:</label>
+                        <input formControlName="telefone1" id="my-input" class="form-control" type="text" name="">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-sm-6">
+                    <div class="form-group">
+                        <label for="my-input">TELEFONE 2:</label>
+                        <input  formControlName="telefone2" id="my-input" class="form-control" type="text" name="">
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mt-4" style="justify-content: center;">
+                <button (click)="cadastrar()" class="botao-roxo">
+                    Solicitar empréstimo
+                </button>
+                </div>
+        </form>
+  
+       
+        <div class="text-area">
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+        </div>
+    </div>
+
+</section>
+</div>

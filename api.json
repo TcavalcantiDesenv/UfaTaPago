@@ -1,0 +1,99 @@
+{
+  "SimularPagamento": [
+    {
+      "vencimento": "2021-03-11",
+      "valorBoleto": "4654",
+      "parcela": "125",
+      "id": 1
+    },
+    {
+      "vencimento": "2021-03-16",
+      "valorBoleto": "12",
+      "parcela": "32sd",
+      "id": 2
+    },
+    {
+      "vencimento": null,
+      "valorBoleto": null,
+      "parcela": null,
+      "id": 3
+    },
+    {
+      "vencimento": null,
+      "valorBoleto": null,
+      "parcela": null,
+      "id": 4
+    }
+  ],
+  "CadastroHome": [
+    {
+      "nome": "Rodrigo Paulo",
+      "sobNome": "Santos",
+      "cpf": "46096593879",
+      "email": "rodrigopaulo.s97@gmail.com",
+      "senha": "12312ds",
+      "aceite": true,
+      "id": 1
+    },
+    {
+      "nome": "Rodrigo Paulo",
+      "sobNome": "Santos",
+      "cpf": "21321312",
+      "email": "rodrigopaulo.s97@gmail.com",
+      "senha": "treste",
+      "aceite": true,
+      "id": 2
+    },
+    {
+      "nome": "Rodrigo Paulo",
+      "sobNome": "Santos",
+      "cpf": "2132132",
+      "email": "rodrigopaulo.s97@gmail.com",
+      "senha": "321312",
+      "aceite": true,
+      "id": 3
+    },
+    {
+      "nome": "Rodrigo Paulo",
+      "sobNome": "Santos",
+      "cpf": "321312",
+      "email": "rodrigopaulo.s97@gmail.com",
+      "senha": "3213",
+      "aceite": true,
+      "id": 4
+    },
+    {
+      "nome": null,
+      "sobNome": null,
+      "cpf": null,
+      "email": null,
+      "senha": null,
+      "aceite": null,
+      "id": 5
+    },
+    {
+      "nome": null,
+      "sobNome": null,
+      "cpf": null,
+      "email": null,
+      "senha": null,
+      "aceite": null,
+      "id": 6
+    },
+    {
+      "nome": "Rodrigo Paulo",
+      "sobNome": "Santos",
+      "cpf": "21312312",
+      "email": "teste",
+      "senha": "Batman@2000",
+      "aceite": true,
+      "id": 7
+    }
+  ],
+  "CadastroEmprestimo": {
+    "nome": "rodrigopaulo.s97@gmail.com",
+    "email": "rodrigopaulo.s97@gmail.com",
+    "telefone1": "+55944598467",
+    "telefone2": "213123"
+  }
+}

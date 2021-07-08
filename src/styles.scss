@@ -1,0 +1,201 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~animate.css/animate.min.css';
+@import '~src/variables.scss';
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+@import '~ngx-toastr/toastr';
+;
+// CORES
+@font-face{
+  font-family: 'Roboto';
+  src : url(assets/fonts/Roboto-Thin.ttf)
+}
+@font-face{
+  font-family: 'Roboto-Bold';
+  src : url(assets/fonts/Roboto-Bold.ttf)
+}
+*{
+  font-family:  'Roboto';
+}
+
+html,
+body {
+    height: 100%;
+    overflow: auto;
+    font-weight: 600;
+}
+li{
+  font-family:  'Roboto-Bold';
+}
+.form-group{
+  text-align: left;
+}
+.form-control{
+  font-weight: 800;
+}
+
+section {
+    width     : 100%;
+    min-height: 300px;
+    color     : #ffff;
+
+    .container {
+        padding: 3em 0;
+        form {
+          label {
+              color      : $roxo;
+              font-weight: 700;
+          }
+        
+          input {
+            border-radius: 20px;
+          }
+        }
+    }
+
+    .title {
+        font-size  : 3.5vh;
+        font-weight: 700;
+        
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+
+}
+.row{
+  justify-content: center;
+}
+
+
+// BOTÕES
+
+.botao-roxo {
+    background: $roxo;
+    color: #fff;
+    padding: 0.5em 2em;
+    border-radius: 32px;
+    border: 0;
+    min-width: 50px;
+    width: auto;
+    text-transform: uppercase;
+}
+.botao-laranja {
+    background: $laranja;
+    color: #fff;
+    padding: 0.5em 2em;
+    border-radius: 32px;
+    border: 0;
+    min-width: 50px;
+    width: auto;
+    text-transform: uppercase;
+}
+
+.icon-check{
+  background: $azul;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  padding: 0 2px;
+  line-height: normal;
+  border-radius: 100%;
+  display: inline-flex;
+}
+.list-group-item {
+  background: none;
+  border    : none;
+  font-size : 12px;
+  padding   : 5px;
+}
+/* The checkbox */
+.checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 1.9vh;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .checkbox:hover input ~ .checkmark {
+    border: 1px solid white;
+    background-color: transparent;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .checkbox input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .checkbox input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .checkbox .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  //Responsive 
+  @media only screen and (max-width: 768px){
+    .col-12{
+      text-align: center;
+    }
+    .col-sm-10{
+      text-align: center;
+    }
+    .d-flex{
+      justify-content: center;
+    }
+    .noMobile{
+      display: none;
+    }
+  }

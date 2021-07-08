@@ -1,0 +1,30 @@
+@import '~src/variables.scss';
+
+
+
+section {
+    height: auto;
+    .title {
+        color: $laranja;
+    }
+
+    .subtitle {
+        color: $cinza-forte
+    }
+
+    li {
+        color: $laranja;
+
+        .icon-check {
+            background: $roxo;
+            color     : #fff
+        }
+    }
+
+    img {
+        margin: 0 auto;
+        display: block;
+        height: 37vh;
+    //    width: 200px;
+    }
+}

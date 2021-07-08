@@ -1,0 +1,9 @@
+
+<div style="height: 80px;">
+    <app-navbar *ngIf="!refresh"></app-navbar>
+</div>
+
+<router-outlet (deactivate)="teste()"></router-outlet>
+<app-footer></app-footer>
+
+

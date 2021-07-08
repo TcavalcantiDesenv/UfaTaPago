@@ -1,0 +1,27 @@
+@import '~src/variables.scss';
+
+
+section{
+    color : #ffff;
+    background: $laranja;
+    .list-group-item {
+        background: none;
+        border    : none;
+        font-size : 12px;
+        padding   : 5px;
+    }
+
+    .image {
+        img {
+            width: 100%;
+        }
+    }
+    a{
+        color: #ffff;
+    }
+}
+footer{
+    background: $roxo;
+    padding: 3em 0;
+    color : #ffff;
+}

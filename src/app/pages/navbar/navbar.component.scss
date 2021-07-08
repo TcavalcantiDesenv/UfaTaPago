@@ -1,0 +1,15 @@
+@import '~src/variables.scss';
+
+.navbar {
+    border-bottom: 5px solid $laranja;
+    ul{
+        font-weight: 600;
+    }
+    a {
+        color: $laranja;
+    }
+
+    a:hover {
+        color: rgb(255 129 2 / 83%);
+    }
+}

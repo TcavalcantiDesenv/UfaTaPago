@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+
+
+    <a class="navbar-brand" routerLink="">
+      <img src="assets/img/logo.png">
+    </a>
+    <button (click)="expandMenu = !expandMenu" class="navbar-toggler" data-target="#my-nav" data-toggle="collapse"
+      aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="my-nav" class="{{expandMenu ? '' : 'collapse'}} navbar-collapse animated fadeIn">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="parcelamentoBoleto" tabindex="-1">Parcelamento de boleto <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="contatoDigitalBMG" tabindex="1" aria-disabled="true">Contato Digital in BMG</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="emprestimoCartaoCredito" tabindex="2" aria-disabled="true">Empréstimo no Cartão de Crédito</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="emprestimoConsignado" tabindex="3" aria-disabled="true">Empréstimo Consignado </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="contato" tabindex="4" aria-disabled="true">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
